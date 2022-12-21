@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/EdyodaReactFinal/static/css/main.18ab2e91.css",
+    "main.js": "/EdyodaReactFinal/static/js/main.6a410ba8.js",
+    "static/js/787.0fe84981.chunk.js": "/EdyodaReactFinal/static/js/787.0fe84981.chunk.js",
+    "index.html": "/EdyodaReactFinal/index.html",
+    "main.18ab2e91.css.map": "/EdyodaReactFinal/static/css/main.18ab2e91.css.map",
+    "main.6a410ba8.js.map": "/EdyodaReactFinal/static/js/main.6a410ba8.js.map",
+    "787.0fe84981.chunk.js.map": "/EdyodaReactFinal/static/js/787.0fe84981.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.18ab2e91.css",
+    "static/js/main.6a410ba8.js"
+  ]
+}
