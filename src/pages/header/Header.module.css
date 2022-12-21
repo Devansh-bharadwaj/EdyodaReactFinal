@@ -1,0 +1,90 @@
+* {
+    box-sizing: border-box;
+}
+nav {
+    height: 100px;
+    background-color: #567086;
+    padding: 0;
+    /* position: fixed; */
+    /* top: 0; */
+    width: 100%;
+}
+.header {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+}
+.divNav1 {
+    color: white;
+    font-size: 23px;
+    font-weight: 600;
+    cursor: pointer;
+    width: 20%;
+}
+.logo {
+    color: white;
+    text-decoration: none;
+}
+.logo:hover {
+    color: #f5a623;
+}
+.divNav {
+    width: 54%;
+    display: flex;
+    height: 100px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.headerIcons {
+    font-size: 29px !important;
+    color: white !important;
+}
+
+/* .divNav div:active {
+    background-color: #f5a623;
+    color: white;
+} */
+.headerLink {
+    text-decoration: none;
+    height: 100px;
+    text-align: center;
+    padding-top: 14px;
+}
+.headerLink:hover {
+    color: #f5a623;
+}
+.divNav div {
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    cursor: pointer;
+    padding-top: 13px;
+}
+.divNav div:hover {
+    color: #f5a623;
+}
+.navLogin {
+    width: 25%;
+    display: flex;
+    justify-content: end;
+}
+.adminLogout {
+    color: white;
+    text-decoration: none;
+}
+.adminLogout:hover {
+    cursor: pointer;
+    color: #f5a623;
+}
+.navbarContent {
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    display: block;
+}
+.navbarContent:hover {
+    color: #f5a623;
+}

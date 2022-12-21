@@ -1,0 +1,82 @@
+.mainBox {
+  padding: 30px 45px;
+  /* background-color: #375169; */
+  width: 90%;
+  margin: 30px auto;
+}
+.graph {
+    display: flex;
+    justify-content: space-between;
+}
+.leftBox {
+    width: 48%;
+    background-color: #435c70;
+    padding: 30px 45px;
+}
+.rightBox {
+    width: 48%;
+    background-color: #435c70;
+    padding: 30px 45px;
+}
+.notification {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    box-shadow: 1px 1px 5px 0 #455c71;
+    min-height: 350px;
+    height: 100%;
+    max-height: 450px;
+}
+.notificationList {
+    height: 90%;
+}
+.notifyCard {
+    padding: 15px;
+    background-color: #4e657a;
+    color: #fff;
+    font-size: 95%;
+    margin-bottom: 15px;
+    display: flex;
+}
+.imgCard {
+    width: 80px;
+    height: 80px;
+    background-color: #aaa;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+.roundImg {
+    border-radius: 50% !important;
+    width: 80px;
+    height: 80px;
+}
+.mediaBody {
+    flex: 1;
+}
+.notificationLink {
+    color: #f5a623;
+    text-decoration: none;
+}
+.mainBox2 {
+    padding: 30px 45px;
+    width: 84%;
+    margin: 30px auto;
+    background-color: #435c70;
+    box-shadow: 1px 1px 5px 0 #455c71;
+    min-height: 350px;
+    height: 100%;
+    max-height: 450px;
+    overflow-y: scroll;
+}
+th {
+    padding: 18px 9px !important;
+}
+td {
+    padding: 18px 9px !important;
+}
+tr {
+    border-bottom: 1px solid #435c70 !important;
+}
+thead {
+    border-bottom: 2px solid #435c70 !important;
+}

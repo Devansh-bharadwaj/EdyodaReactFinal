@@ -1,0 +1,115 @@
+.section1 {
+  padding: 30px 68px;
+  background-color: #375169;
+  width: 90%;
+  margin: 0px auto 42px;
+}
+h2 {
+  font-size: 18px;
+  color: white;
+}
+p {
+  color: white;
+  margin-top: 15px;
+}
+select {
+  background-color: #54657d;
+  border: none;
+  color: #acc6de;
+  width: 100%;
+  padding: 12px;
+}
+.section2 {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin: 34px auto;
+}
+
+.leftBox {
+  width: 37%;
+  padding: 30px 45px;
+  background-color: #375169;
+}
+.imgDiv {
+  position: relative;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.imgDiv img {
+  width: 344px;
+}
+.rightBox {
+  width: 59%;
+  padding: 30px 45px;
+  background-color: #375169;
+}
+.profileDelete {
+  margin-top: -25px;
+  z-index: 5;
+  padding: 3px;
+  border-radius: 50%;
+  background-color: rgba(57, 78, 100, 0.7);
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  display: none;
+  transition: all 0.2s ease;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: -25px;
+  color: white;
+  font-size: 24px;
+}
+.imgDiv:hover .profileDelete {
+  display: inline-block;
+}
+.uploadBtn {
+  color: #fff;
+  background-color: #f5a623;
+  border: 2px solid #f5a623;
+  font-size: 90%;
+  font-weight: 600;
+  border-radius: 0;
+  padding: 13px 28px;
+  transition: all 0.2s ease;
+  max-width: 100%;
+  display: block;
+  width: 100%;
+  margin-top: 36px;
+}
+.uploadBtn:hover {
+  color: #f5a623;
+  background-color: transparent;
+  border: 2px solid #f5a623;
+  cursor: pointer;
+}
+.accountForm {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.accountForm div {
+    width: 48%;
+}
+.accountForm div input {
+    width: 100%;
+    padding: 12px;
+    background-color: #54657d !important;
+    border: none;
+    color: white;
+}
+.accountForm div input:focus {
+    background-color: #60738e;
+    color: #fff;
+    border-color: transparent;
+    box-shadow: 0 0 0 0.1rem rgb(180 206 233 / 50%);
+}
+.accountForm div label {
+    color: white;
+    margin-top: 14px;
+    margin-bottom: 8px;
+}

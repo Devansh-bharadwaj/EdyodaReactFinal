@@ -1,0 +1,38 @@
+.mainBox {
+    width: 50%;
+    margin: 30px auto;
+    padding: 30px 45px;
+    background-color: #375169;
+}
+.labelAddCategory {
+    margin-bottom: 10px;
+    color: white;
+    margin-top: 15px;
+}
+.inputAddCategory {
+    width: 100%;
+    padding: 12px;
+    background-color: #54657d !important;
+    border: none;
+    color: white;
+}
+.addCategoryBtn {
+    color: #fff;
+    background-color: #f5a623;
+    border: 2px solid #f5a623;
+    font-size: 90%;
+    font-weight: 600;
+    border-radius: 0;
+    padding: 13px 28px;
+    transition: all 0.2s ease;
+    max-width: 100%;
+    display: block;
+    width: 100%;
+    margin-top: 36px;
+}
+.addCategoryBtn:hover {
+    color: #f5a623;
+    background-color: transparent;
+    border: 2px solid #f5a623;
+    cursor: pointer;
+}

@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+}
+.loginMain {
+    max-width: 470px;
+    margin: 52px auto;
+    background-color: #375169;
+}
+.loginHeading {
+    width: 80%;
+    margin: 15px auto 10px;
+    text-align: center;
+    padding-bottom: 15px;
+    color: white;
+    font-weight: 600;
+    font-size: 18px;
+    padding-top: 40px;
+}
+.labelLogin {
+    float: left;
+    margin-left: 36px;
+    width: 100%;
+    color: white;
+    font-size: 18px;
+}
+.formLogin input {
+    margin-left: 36px;
+    width: 85%;
+    padding: 14px 8px;
+    border: none;
+}
+.loginBtn {
+    color: #fff;
+    background-color: #f5a623;
+    border: 2px solid #f5a623;
+    font-size: 90%;
+    font-weight: 600;
+    border-radius: 0;
+    padding: 13px 28px;
+    transition: all 0.2s ease;
+    max-width: 100%;
+    display: block;
+    width: 85%;
+    margin: 36px;
+}
+.loginBtn:hover {
+    color: #f5a623;
+    background-color: transparent;
+    border: 2px solid #f5a623;
+    cursor: pointer;
+}
+.formOuterDiv {
+    padding: 15px;
+}

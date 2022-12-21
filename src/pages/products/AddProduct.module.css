@@ -1,0 +1,73 @@
+.mainBox {
+  width: 70%;
+  margin: 30px auto;
+  padding: 30px 45px;
+  background-color: #375169;
+}
+.mainBoxInner {
+  display: flex;
+  justify-content: space-between;
+}
+.innerBoxleft {
+  width: 49%;
+}
+.innerBoxRight {
+  width: 49%;
+}
+.labelAddProduct {
+  margin-bottom: 10px;
+  color: white;
+  margin-top: 15px;
+}
+.inputAddProduct {
+  width: 100%;
+  padding: 12px;
+  background-color: #54657d !important;
+  border: none;
+  color: white;
+}
+.stockDiv {
+  display: flex;
+  justify-content: space-between;
+}
+.stockDiv div {
+  width: 45%;
+}
+.uploadDiv {
+  max-width: 100%;
+  height: 240px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  background: #aaa;
+}
+
+.uploadLogo {
+  background: #455c71;
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  text-align: center;
+  padding: 12px;
+}
+.uploadImage {
+  color: #fff;
+  background-color: #f5a623;
+  border: 2px solid #f5a623;
+  font-size: 90%;
+  font-weight: 600;
+  border-radius: 0;
+  padding: 13px 28px;
+  transition: all 0.2s ease;
+  max-width: 100%;
+  display: block;
+  width: 100%;
+  margin-top: 36px;
+}
+.uploadImage:hover {
+  color: #f5a623;
+  background-color: transparent;
+  border: 2px solid #f5a623;
+  cursor: pointer;
+}
