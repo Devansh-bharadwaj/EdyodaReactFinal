@@ -15,7 +15,7 @@ function Header(props) {
                 <Link className={styles.headerLink} to='/products'><FaShoppingCart style={{fontSize:"29px", color:"white"}} /><div className={styles.navbarContent}>PRODUCTS</div></Link>
                 <Link className={styles.headerLink} to='/account'><FaRegUser style={{fontSize:"29px", color:"white"}} /><div className={styles.navbarContent}>ACCOUNT</div></Link>
           </div>
-          <div className={styles.navLogin}>{props.isLoggedIn && <Link to='/login' onClick={props.logout} className={styles.adminLogout}>Admin,<span style={{fontWeight:"700"}}> Logout</span></Link>}</div>
+          <div className={styles.navLogin}>{props.isLoggedIn && <Link to='/EdyodaReactFinal' onClick={props.logout} className={styles.adminLogout}>Admin,<span style={{fontWeight:"700"}}> Logout</span></Link>}</div>
         </div>
       </nav>
     </div>

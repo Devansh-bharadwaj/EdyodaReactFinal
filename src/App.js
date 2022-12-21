@@ -38,7 +38,7 @@ function App() {
         <Route
           path="/"
           element={
-            isLoggedIn ? <Dashboard /> : <Navigate to="/login"></Navigate>
+            isLoggedIn ? <Dashboard /> : <Navigate to="/EdyodaReactFinal"></Navigate>
           }
         ></Route>
         <Route
@@ -47,7 +47,7 @@ function App() {
             isLoggedIn ? (
               <Products to="/products" />
             ) : (
-              <Navigate to="/login"></Navigate>
+              <Navigate to="/EdyodaReactFinal"></Navigate>
             )
           }
         ></Route>
@@ -57,12 +57,12 @@ function App() {
             isLoggedIn ? (
               <Account to="/account" />
             ) : (
-              <Navigate to="/login"></Navigate>
+              <Navigate to="/EdyodaReactFinal"></Navigate>
             )
           }
         ></Route>
         <Route
-          path="/login"
+          path="/EdyodaReactFinal"
           element={
             <Login
               onLogin={(loginStatus) => {
@@ -75,13 +75,13 @@ function App() {
         <Route
           path="/add-product"
           element={
-            isLoggedIn ? <AddProduct /> : <Navigate to="/login"></Navigate>
+            isLoggedIn ? <AddProduct /> : <Navigate to="/EdyodaReactFinal"></Navigate>
           }
         ></Route>
         <Route
           path="/add-category"
           element={
-            isLoggedIn ? <AddCategory /> : <Navigate to="/login"></Navigate>
+            isLoggedIn ? <AddCategory /> : <Navigate to="/EdyodaReactFinal"></Navigate>
           }
         ></Route>
       </Routes>
