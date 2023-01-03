@@ -88,3 +88,22 @@ nav {
 .navbarContent:hover {
     color: #f5a623;
 }
+
+@media screen and (max-width: 768px) {
+    .header {
+        width: 94%;
+    }
+}
+
+@media screen and (max-width: 568px) {
+    .divNav1 {
+        font-size: 15px;
+    }
+    .navLogin {
+        width: 18%;
+        font-size: 14px;
+    }
+    .divNav div {
+        font-size: 10px;
+    }
+}

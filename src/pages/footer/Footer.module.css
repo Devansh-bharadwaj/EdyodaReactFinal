@@ -6,3 +6,8 @@
     color: white;
     height: 100px;
 }
+@media screen and (max-width: 452px) {
+    .footer div {
+        margin: auto 14px;
+    }
+}

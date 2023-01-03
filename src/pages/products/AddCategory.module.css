@@ -36,3 +36,8 @@
     border: 2px solid #f5a623;
     cursor: pointer;
 }
+@media screen and (max-width: 768px) {
+    .mainBox {
+      width: 100%;
+    }
+}    

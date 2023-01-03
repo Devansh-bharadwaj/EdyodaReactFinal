@@ -7,6 +7,7 @@
 .graph {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 .leftBox {
     width: 48%;
@@ -17,6 +18,7 @@
     width: 48%;
     background-color: #435c70;
     padding: 30px 45px;
+    overflow-y: scroll;
 }
 .notification {
     display: flex;
@@ -79,4 +81,46 @@ tr {
 }
 thead {
     border-bottom: 2px solid #435c70 !important;
+}
+
+@media screen and (max-width: 768px) {
+    .mainBox {
+        width: 100%;
+        padding: 0;
+    }
+    .leftBox {
+        padding: 16px 15px;
+        width: 100%;
+    }
+    .rightBox {
+        padding: 16px 15px;
+        width: 100%;
+        margin-top: 30px;
+    }
+    .mainBox2 {
+        width: 100%;
+        padding: 16px 15px;
+        overflow-x: scroll;
+    }
+    .notification {
+        max-height: 100%;
+        flex-wrap: wrap;
+    }
+}
+@media screen and (max-width: 992px) {
+    .mainBox {
+        width: 100%;
+        padding: 0;
+    }
+    .leftBox {
+        padding: 16px 15px;
+    }
+    .rightBox {
+        padding: 16px 15px;
+    }
+    .mainBox2 {
+        overflow-x: hidden;
+        width: 100%;
+        padding: 16px 15px;
+    }
 }

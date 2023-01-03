@@ -1,9 +1,10 @@
 .mainBox {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 .leftBox {
-  width: 65%;
+  width: 66%;
   padding: 30px 45px;
   background-color: #375169;
   margin-bottom: 30px;
@@ -93,3 +94,25 @@ tbody tr:hover {
   border: 2px solid #f5a623;
   cursor: pointer;
 }
+
+@media screen and (max-width: 768px) {
+  .mainBox {
+    flex-wrap: wrap;
+  }
+  .leftBox {
+    width: 100%;
+  }
+  .rightBox {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .leftBox {
+    padding: 30px 9px;
+  }
+  .rightBox {
+    padding: 30px 9px;
+  }
+}
+  

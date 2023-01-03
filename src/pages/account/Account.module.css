@@ -39,7 +39,7 @@ select {
   flex-direction: column;
 }
 .imgDiv img {
-  width: 344px;
+  width: 100%;
 }
 .rightBox {
   width: 59%;
@@ -112,4 +112,20 @@ select {
     color: white;
     margin-top: 14px;
     margin-bottom: 8px;
+}
+
+@media screen and (max-width: 768px) {
+  .leftBox {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  .rightBox {
+    width: 100%;
+  }
+  .section2 {
+    flex-wrap: wrap;
+  }
+  .accountForm div {
+    width: 100%;
+  }
 }

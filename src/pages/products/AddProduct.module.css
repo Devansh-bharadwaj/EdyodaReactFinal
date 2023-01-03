@@ -71,3 +71,19 @@
   border: 2px solid #f5a623;
   cursor: pointer;
 }
+
+@media screen and (max-width: 768px) {
+  .mainBox {
+    width: 100%;
+  }
+  .mainBoxInner {
+    flex-wrap: wrap;
+  }
+  .innerBoxleft {
+    width: 100%;
+  }
+  .innerBoxRight {
+    width: 100%;
+    margin-top: 30px;
+  }
+}
