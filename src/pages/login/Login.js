@@ -24,8 +24,10 @@ function Login(props) {
     event.preventDefault();
 
     if(username === "admin" && password === "admin"){
-      props.onLogin(true)
+      props.onLogin(true);
       navigate('/')
+    }else {
+      alert("Please use username and password as 'admin'")
     }
 
   }
