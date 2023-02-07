@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/EdyodaReactFinal/static/css/main.96a3f5d1.css",
-    "main.js": "/EdyodaReactFinal/static/js/main.84c85659.js",
+    "main.js": "/EdyodaReactFinal/static/js/main.3ebbcfa7.js",
     "static/js/787.0fe84981.chunk.js": "/EdyodaReactFinal/static/js/787.0fe84981.chunk.js",
     "index.html": "/EdyodaReactFinal/index.html",
     "main.96a3f5d1.css.map": "/EdyodaReactFinal/static/css/main.96a3f5d1.css.map",
-    "main.84c85659.js.map": "/EdyodaReactFinal/static/js/main.84c85659.js.map",
+    "main.3ebbcfa7.js.map": "/EdyodaReactFinal/static/js/main.3ebbcfa7.js.map",
     "787.0fe84981.chunk.js.map": "/EdyodaReactFinal/static/js/787.0fe84981.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.96a3f5d1.css",
-    "static/js/main.84c85659.js"
+    "static/js/main.3ebbcfa7.js"
   ]
 }
